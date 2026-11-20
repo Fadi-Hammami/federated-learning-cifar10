@@ -1,0 +1,54 @@
+[B_noniid_shards] partition=noniid-shards  clients=20  sizes min/max=2500/2500
+   client 0: n= 2500  classes=[5]  hist=[0, 0, 0, 0, 0, 2500, 0, 0, 0, 0]
+   client 1: n= 2500  classes=[1, 6]  hist=[0, 1250, 0, 0, 0, 0, 1250, 0, 0, 0]
+   client 2: n= 2500  classes=[2, 3]  hist=[0, 0, 1250, 1250, 0, 0, 0, 0, 0, 0]
+   client 3: n= 2500  classes=[2, 7]  hist=[0, 0, 1250, 0, 0, 0, 0, 1250, 0, 0]
+   client 4: n= 2500  classes=[4, 7]  hist=[0, 0, 0, 0, 1250, 0, 0, 1250, 0, 0]
+[B_noniid_shards] CNN params: 620,362
+14:16:17 - server - INFO - Round   1 | test loss 2.3958 | test acc 16.79%
+14:16:41 - server - INFO - Round   2 | test loss 2.2559 | test acc 18.10%
+14:17:05 - server - INFO - Round   3 | test loss 2.1967 | test acc 24.70%
+14:17:29 - server - INFO - Round   4 | test loss 2.2259 | test acc 22.49%
+14:17:52 - server - INFO - Round   5 | test loss 2.0569 | test acc 24.12%
+14:18:16 - server - INFO - Round   6 | test loss 1.9559 | test acc 30.64%
+14:18:39 - server - INFO - Round   7 | test loss 1.9071 | test acc 30.78%
+14:19:02 - server - INFO - Round   8 | test loss 1.8724 | test acc 28.02%
+14:19:25 - server - INFO - Round   9 | test loss 1.9430 | test acc 25.47%
+14:19:49 - server - INFO - Round  10 | test loss 2.1334 | test acc 25.18%
+14:20:12 - server - INFO - Round  11 | test loss 1.9493 | test acc 32.08%
+14:20:35 - server - INFO - Round  12 | test loss 2.0967 | test acc 28.74%
+14:20:58 - server - INFO - Round  13 | test loss 1.7142 | test acc 38.91%
+14:21:21 - server - INFO - Round  14 | test loss 1.7676 | test acc 36.39%
+14:21:45 - server - INFO - Round  15 | test loss 1.8317 | test acc 29.55%
+14:22:08 - server - INFO - Round  16 | test loss 1.6852 | test acc 38.23%
+14:22:32 - server - INFO - Round  17 | test loss 1.7429 | test acc 36.44%
+14:22:55 - server - INFO - Round  18 | test loss 1.8600 | test acc 33.20%
+14:23:19 - server - INFO - Round  19 | test loss 1.6495 | test acc 39.77%
+14:23:42 - server - INFO - Round  20 | test loss 1.6381 | test acc 38.81%
+14:24:06 - server - INFO - Round  21 | test loss 1.6365 | test acc 38.36%
+14:24:29 - server - INFO - Round  22 | test loss 1.8144 | test acc 30.39%
+14:24:53 - server - INFO - Round  23 | test loss 1.7181 | test acc 39.38%
+14:25:16 - server - INFO - Round  24 | test loss 1.6447 | test acc 38.40%
+14:25:39 - server - INFO - Round  25 | test loss 1.5632 | test acc 42.35%
+14:26:02 - server - INFO - Round  26 | test loss 1.5374 | test acc 44.56%
+14:26:26 - server - INFO - Round  27 | test loss 1.5552 | test acc 43.55%
+14:26:50 - server - INFO - Round  28 | test loss 1.4931 | test acc 46.25%
+14:27:14 - server - INFO - Round  29 | test loss 1.4534 | test acc 46.90%
+14:27:37 - server - INFO - Round  30 | test loss 1.4425 | test acc 47.67%
+14:28:00 - server - INFO - Round  31 | test loss 1.4862 | test acc 45.81%
+14:28:24 - server - INFO - Round  32 | test loss 1.5563 | test acc 42.28%
+14:28:48 - server - INFO - Round  33 | test loss 1.7540 | test acc 39.96%
+14:29:11 - server - INFO - Round  34 | test loss 1.4333 | test acc 47.67%
+14:29:34 - server - INFO - Round  35 | test loss 1.4956 | test acc 46.36%
+14:29:58 - server - INFO - Round  36 | test loss 1.5583 | test acc 41.79%
+14:30:22 - server - INFO - Round  37 | test loss 1.4319 | test acc 48.89%
+14:30:45 - server - INFO - Round  38 | test loss 1.4982 | test acc 44.40%
+14:31:09 - server - INFO - Round  39 | test loss 1.5096 | test acc 47.77%
+14:31:32 - server - INFO - Round  40 | test loss 1.4848 | test acc 45.72%
+[B_noniid_shards] rounds to reach 40% : 25
+[B_noniid_shards] rounds to reach 50% : None
+[B_noniid_shards] rounds to reach 60% : None
+[B_noniid_shards] rounds to reach 65% : None
+[B_noniid_shards] rounds to reach 70% : None
+[B_noniid_shards] final test acc = 45.72%  | per-client acc std = 23.73 pts | time 939s
+[B_noniid_shards] saved results/B_noniid_shards.json

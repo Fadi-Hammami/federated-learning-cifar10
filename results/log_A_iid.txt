@@ -1,0 +1,54 @@
+[A_iid] partition=iid  clients=20  sizes min/max=2500/2500
+   client 0: n= 2500  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[244, 253, 229, 241, 258, 264, 259, 266, 225, 261]
+   client 1: n= 2500  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[243, 229, 247, 272, 239, 241, 249, 263, 241, 276]
+   client 2: n= 2500  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[242, 254, 232, 242, 263, 236, 282, 221, 279, 249]
+   client 3: n= 2500  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[252, 272, 288, 241, 261, 236, 222, 234, 227, 267]
+   client 4: n= 2500  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[255, 262, 265, 264, 243, 250, 250, 247, 240, 224]
+[A_iid] CNN params: 620,362
+13:59:44 - server - INFO - Round   1 | test loss 2.1456 | test acc 26.38%
+14:00:08 - server - INFO - Round   2 | test loss 1.9416 | test acc 29.89%
+14:00:31 - server - INFO - Round   3 | test loss 1.8216 | test acc 35.55%
+14:00:56 - server - INFO - Round   4 | test loss 1.7440 | test acc 36.46%
+14:01:20 - server - INFO - Round   5 | test loss 1.6229 | test acc 41.48%
+14:01:43 - server - INFO - Round   6 | test loss 1.5430 | test acc 44.17%
+14:02:07 - server - INFO - Round   7 | test loss 1.5279 | test acc 43.64%
+14:02:30 - server - INFO - Round   8 | test loss 1.4389 | test acc 48.06%
+14:02:54 - server - INFO - Round   9 | test loss 1.4694 | test acc 47.13%
+14:03:18 - server - INFO - Round  10 | test loss 1.4301 | test acc 48.27%
+14:03:41 - server - INFO - Round  11 | test loss 1.3855 | test acc 49.55%
+14:04:05 - server - INFO - Round  12 | test loss 1.3356 | test acc 51.70%
+14:04:28 - server - INFO - Round  13 | test loss 1.2691 | test acc 54.81%
+14:04:51 - server - INFO - Round  14 | test loss 1.3039 | test acc 52.95%
+14:05:14 - server - INFO - Round  15 | test loss 1.2508 | test acc 55.33%
+14:05:37 - server - INFO - Round  16 | test loss 1.1818 | test acc 57.52%
+14:06:00 - server - INFO - Round  17 | test loss 1.1695 | test acc 57.92%
+14:06:23 - server - INFO - Round  18 | test loss 1.2181 | test acc 56.25%
+14:06:46 - server - INFO - Round  19 | test loss 1.1659 | test acc 57.56%
+14:07:09 - server - INFO - Round  20 | test loss 1.1075 | test acc 59.93%
+14:07:32 - server - INFO - Round  21 | test loss 1.2062 | test acc 56.52%
+14:07:55 - server - INFO - Round  22 | test loss 1.1719 | test acc 58.32%
+14:08:18 - server - INFO - Round  23 | test loss 1.0265 | test acc 63.32%
+14:08:42 - server - INFO - Round  24 | test loss 1.0807 | test acc 61.79%
+14:09:05 - server - INFO - Round  25 | test loss 1.0126 | test acc 63.78%
+14:09:28 - server - INFO - Round  26 | test loss 0.9908 | test acc 64.63%
+14:09:51 - server - INFO - Round  27 | test loss 1.0119 | test acc 64.10%
+14:10:14 - server - INFO - Round  28 | test loss 1.0375 | test acc 63.60%
+14:10:37 - server - INFO - Round  29 | test loss 0.9927 | test acc 65.27%
+14:11:00 - server - INFO - Round  30 | test loss 1.0670 | test acc 61.71%
+14:11:24 - server - INFO - Round  31 | test loss 0.9339 | test acc 67.32%
+14:11:47 - server - INFO - Round  32 | test loss 0.9360 | test acc 67.40%
+14:12:10 - server - INFO - Round  33 | test loss 0.9905 | test acc 65.15%
+14:12:33 - server - INFO - Round  34 | test loss 0.9232 | test acc 67.55%
+14:12:56 - server - INFO - Round  35 | test loss 0.9140 | test acc 67.86%
+14:13:19 - server - INFO - Round  36 | test loss 0.9140 | test acc 67.87%
+14:13:42 - server - INFO - Round  37 | test loss 0.9563 | test acc 67.11%
+14:14:06 - server - INFO - Round  38 | test loss 0.8759 | test acc 69.23%
+14:14:29 - server - INFO - Round  39 | test loss 0.9667 | test acc 66.53%
+14:14:52 - server - INFO - Round  40 | test loss 0.8692 | test acc 69.28%
+[A_iid] rounds to reach 40% : 5
+[A_iid] rounds to reach 50% : 12
+[A_iid] rounds to reach 60% : 23
+[A_iid] rounds to reach 65% : 29
+[A_iid] rounds to reach 70% : None
+[A_iid] final test acc = 69.28%  | per-client acc std = 1.77 pts | time 932s
+[A_iid] saved results/A_iid.json

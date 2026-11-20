@@ -1,0 +1,54 @@
+[B_noniid_dir] partition=noniid-dir  clients=20  sizes min/max=1688/3744
+   client 0: n= 1827  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[541, 458, 6, 36, 70, 31, 4, 62, 63, 556]
+   client 1: n= 2694  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[1, 1, 3, 2, 93, 1160, 644, 341, 17, 432]
+   client 2: n= 1874  classes=[0, 1, 2, 3, 5, 6, 8]  hist=[1, 697, 217, 24, 0, 443, 2, 0, 490, 0]
+   client 3: n= 2025  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8]  hist=[187, 128, 29, 11, 4, 704, 235, 243, 484, 0]
+   client 4: n= 1688  classes=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  hist=[261, 5, 21, 18, 114, 114, 30, 22, 976, 127]
+[B_noniid_dir] CNN params: 620,362
+14:32:20 - server - INFO - Round   1 | test loss 2.3107 | test acc 17.07%
+14:32:42 - server - INFO - Round   2 | test loss 2.0474 | test acc 26.47%
+14:33:06 - server - INFO - Round   3 | test loss 1.9858 | test acc 27.14%
+14:33:31 - server - INFO - Round   4 | test loss 1.9249 | test acc 29.70%
+14:33:56 - server - INFO - Round   5 | test loss 1.7365 | test acc 36.91%
+14:34:19 - server - INFO - Round   6 | test loss 1.7052 | test acc 37.28%
+14:34:43 - server - INFO - Round   7 | test loss 1.5647 | test acc 42.62%
+14:35:08 - server - INFO - Round   8 | test loss 1.5757 | test acc 41.30%
+14:35:32 - server - INFO - Round   9 | test loss 1.5736 | test acc 41.75%
+14:35:55 - server - INFO - Round  10 | test loss 1.5299 | test acc 42.78%
+14:36:18 - server - INFO - Round  11 | test loss 1.5030 | test acc 44.21%
+14:36:43 - server - INFO - Round  12 | test loss 1.5245 | test acc 44.89%
+14:37:04 - server - INFO - Round  13 | test loss 1.4333 | test acc 47.13%
+14:37:27 - server - INFO - Round  14 | test loss 1.4820 | test acc 45.80%
+14:37:49 - server - INFO - Round  15 | test loss 1.4105 | test acc 48.16%
+14:38:11 - server - INFO - Round  16 | test loss 1.3777 | test acc 50.31%
+14:38:33 - server - INFO - Round  17 | test loss 1.3307 | test acc 52.28%
+14:38:55 - server - INFO - Round  18 | test loss 1.2786 | test acc 53.71%
+14:39:19 - server - INFO - Round  19 | test loss 1.3401 | test acc 52.11%
+14:39:43 - server - INFO - Round  20 | test loss 1.2597 | test acc 54.38%
+14:40:07 - server - INFO - Round  21 | test loss 1.3494 | test acc 50.35%
+14:40:29 - server - INFO - Round  22 | test loss 1.2855 | test acc 52.92%
+14:40:53 - server - INFO - Round  23 | test loss 1.2325 | test acc 54.91%
+14:41:16 - server - INFO - Round  24 | test loss 1.3753 | test acc 50.73%
+14:41:40 - server - INFO - Round  25 | test loss 1.1884 | test acc 57.67%
+14:42:04 - server - INFO - Round  26 | test loss 1.3023 | test acc 52.82%
+14:42:27 - server - INFO - Round  27 | test loss 1.1460 | test acc 57.62%
+14:42:49 - server - INFO - Round  28 | test loss 1.2017 | test acc 56.15%
+14:43:11 - server - INFO - Round  29 | test loss 1.0812 | test acc 61.24%
+14:43:36 - server - INFO - Round  30 | test loss 1.1542 | test acc 58.76%
+14:43:59 - server - INFO - Round  31 | test loss 1.1034 | test acc 60.90%
+14:44:21 - server - INFO - Round  32 | test loss 1.0587 | test acc 62.68%
+14:44:44 - server - INFO - Round  33 | test loss 1.0678 | test acc 61.74%
+14:45:06 - server - INFO - Round  34 | test loss 1.0921 | test acc 60.84%
+14:45:30 - server - INFO - Round  35 | test loss 1.0228 | test acc 63.89%
+14:45:52 - server - INFO - Round  36 | test loss 1.0501 | test acc 62.94%
+14:46:15 - server - INFO - Round  37 | test loss 1.0690 | test acc 62.18%
+14:46:39 - server - INFO - Round  38 | test loss 1.1261 | test acc 60.15%
+14:47:01 - server - INFO - Round  39 | test loss 1.0274 | test acc 63.80%
+14:47:24 - server - INFO - Round  40 | test loss 1.0958 | test acc 60.92%
+[B_noniid_dir] rounds to reach 40% : 7
+[B_noniid_dir] rounds to reach 50% : 16
+[B_noniid_dir] rounds to reach 60% : 29
+[B_noniid_dir] rounds to reach 65% : None
+[B_noniid_dir] rounds to reach 70% : None
+[B_noniid_dir] final test acc = 60.92%  | per-client acc std = 10.05 pts | time 927s
+[B_noniid_dir] saved results/B_noniid_dir.json
